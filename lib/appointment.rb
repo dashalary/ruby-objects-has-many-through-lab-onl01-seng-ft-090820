@@ -1,0 +1,13 @@
+class Appointment 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+end
