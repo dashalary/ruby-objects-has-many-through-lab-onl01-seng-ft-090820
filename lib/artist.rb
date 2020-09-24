@@ -21,7 +21,7 @@ Song.new(name, self, genre)
 end
 
 def genres
-songs.select {|song| song.genre == genre}
+songs.map 
 end
   
   
