@@ -16,7 +16,10 @@ Song.all.select {|song| song.genre == self}
 end
   
 def artists
-songs.select {|song| song.artist == artist}
+songs.map do |song|
+song.artist
+end
+end
 end
   
   
